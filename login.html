@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Cabinet Medical </title>
+
+    <!-- css -->
+    <link href="css/login.css" rel="stylesheet">
+
+    <!-- js -->
+    <script src="js/login.js"></script>
+
+
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <div class="logo">
+                <p><a href="index.php">Doctor Shems</a></p>
+            </div>
+            <div class="content">
+                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, dignissimos.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque expedita voluptatum molestias accusamus illum provident aperiam quod assumenda doloribus optio, sed quidem ea consequuntur dolorem repudiandae aspernatur natus deserunt cum aliquam architecto impedit adipisci, in iusto. Quidem saepe, totam recusandae modi fugiat ducimus a voluptates ab, quos molestiae rerum quas?</p>
+                <div class="button">
+                    <li><button type="button"><a href="#doctor"><span></span>Doctor</a></button></li>
+                    <li><button type="button"><a href="#secretery"><span></span>Secretary</a></button></li>
+                </div>
+            </div>
+        </header>
+
+        <div class="section">  
+            <form class="form" id="doctor">
+                <h2>Doctor Login Form</h2>
+                <ul>
+                    <li><input id="name" type="text" class="input" autocomplete="off" placeholder="Username" required></li>
+                    <li><input type="password" class="input"autocomplete="off" placeholder="Password" required></li>
+                </ul>
+                <button class="submit" onclick="doctor()"><span></span>Submit</button>
+            </form>
+
+            <form class="form" id="secretery">
+                <h2>Secretary Login Form</h2>
+                <ul>
+                    <li><input id="username" type="text" class="input" autocomplete="off" placeholder="Username" required></li>
+                    <li><input type="password" class="input"autocomplete="off" placeholder="Password" required></li>
+                </ul>
+                <button class="submit" onclick="secretery()"><span></span>Submit</button>
+            </form>
+        </div>
+    </div>    
+
+    
+
+</body>
+</html>

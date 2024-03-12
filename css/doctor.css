@@ -1,0 +1,100 @@
+
+/* font */
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(../fonts/CinzelDecorative-Bold.ttf);
+}
+
+/* body */
+body 
+{
+    background: linear-gradient(rgba(242, 221, 189, 0.75) 100%, rgba(231, 196, 145, 0.75) 100%);
+}
+
+/* logo */
+.logo 
+{
+    display: flex;
+    /* align-items: center; */
+    color: rgb(0, 8, 7);
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Cinzel-Bold;
+    margin: 16px;
+    margin-bottom: 0;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo a:hover
+{
+    color: #bf7a0a;
+}
+
+/* table */
+table 
+{
+    padding: 10px;
+    background-color: #ffe9c4;
+}
+
+/* form */
+form 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.input 
+{
+    padding: 0.6rem;
+    background: none;
+    width: 150px;
+    height: 100%;
+    border-style: hidden;
+    border-bottom: 2px solid #bf7a0a;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.3s;
+    color: #bf7a0a;
+}
+
+.submit 
+{
+    border: 0.5px #bf7a0a solid;
+    font-size: 0.9rem;
+    padding: 8px 4px;
+    border-radius: 15px;
+    background-color: #ffe9c4;
+}
+
+.submit:hover 
+{
+    background-color: #f1c37a;
+}
+
+.modifier
+{
+    border: 0.5px #bf7a0a solid;
+    font-size: 0.6rem;
+    padding: 8px 4px;
+    border-radius: 15px;
+    background-color: #ffe9c4;
+    transition: 0.2s;
+}
+
+.modifier:hover
+{
+    background-color: #d28b12;
+}
